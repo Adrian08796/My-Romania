@@ -1,12 +1,35 @@
-h1{
-    font-size: 12pt;
+  
+  
+  html, body|{
+    margin:0;
+    padding:0;
+  }
+  
+  .custom-heading{
+    text-align: center;
+    color: rgb(75, 10, 31);
+    font-family:'Courier New';
+  }
+
+  p{
+    
+  }
+
+  a{
+    color: rgb(75, 10, 31);
     text-decoration: underline;
   }
 
-
-  p{
-    color: red;
-    font-size: 18pt;
+  body{
+    background-color:gainsboro;
   }
 
+  header{
+    text-align: center;
+  }
   
+  .nav-button{
+    background-color:beige;
+    color: rgb(75, 10, 31);
+    border-color: rgb(75, 10, 31);
+  }
