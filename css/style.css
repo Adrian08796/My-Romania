@@ -1,35 +1,67 @@
-  
-  
-  html, body|{
-    margin:0;
-    padding:0;
+  /* Reset ht,l and body */
+  html, body{
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    font-family: fertigo pro;
+  }
+
+  /* make all elements border box */
+  *{
+    box-sizing: border-box;
   }
   
   .custom-heading{
     text-align: center;
-    color: rgb(75, 10, 31);
-    font-family:'Courier New';
+    color: #17ae77;
+    font-family: fertigo pro;
+    font-size: 40px;
   }
 
-  p{
-    
+  .welcome-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 5px solid black;
+    border-radius: 5%;
+
   }
 
-  a{
-    color: rgb(75, 10, 31);
-    text-decoration: underline;
+  /* navigation commands starts */
+  .class-nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
   }
-
-  body{
-    background-color:gainsboro;
+  .class-nav-li { /*makes navigation list stay to the left side of the page*/
+    float: left;
   }
-
-  header{
+  .class-nav-li .class-nav-a {
+    display: block;
+    color: white;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: fertigo pro;
+  }
+  /* This line turns the list item black as i hover over it*/
+  .class-nav-li .class-nav-a:hover:not(.active) {
+    background-color: #111;
   }
   
-  .nav-button{
-    background-color:beige;
-    color: rgb(75, 10, 31);
-    border-color: rgb(75, 10, 31);
+  .active { /* This line turns my current browsing page status to green */
+    background-color: #04aa6d;
   }
+  /* navigation commands ends */
+
+  .contact-info { /*changes contacts list on contacts page*/
+    color: #04aa6d;
+    font-weight: bold;
+    text-decoration: none;
+  }
+

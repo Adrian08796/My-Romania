@@ -7,33 +7,40 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <nav>
-      <!--  -->
-      <a href="./index.html"><button class="nav-button">Home</button></a>
-      <a href="./index.html"><button class="nav-button">Blogs</button></a>
-      <a href="./pages/about_Adrian.html"><button class="nav-button">About</button></a>
-      <a href="./legal/terms.html"><button class="nav-button">Legal</button></a>
-      <a href="./index.html"><button class="nav-button">Contact</button></a>
-      <h3>Home/</h3>
-      <br />
-    </nav>
     <header>
-      <h1 class="custom-heading">Adrian's Journey - Blog</h1>
-      <br />
-      <img
-        src="./assets/images/blog01.webp"
-        alt="Coffe desk"
-        width="800"
-        height="400" />
-      <br />
+      <nav>
+        <ul class="class-nav-ul">
+          <li class="class-nav-li">
+            <a class="class-nav-a active" href="./index.html">Home</a>
+          </li>
+          <!-- anchor has two classes -->
+          <li class="class-nav-li">
+            <a class="class-nav-a" href="./pages/blogs/blog-list.html">Blogs</a>
+          </li>
+          <li class="class-nav-li">
+            <a class="class-nav-a" href="./pages/about_Adrian.html">About</a>
+          </li>
+          <li class="class-nav-li">
+            <a class="class-nav-a" href="./legal/terms.html">Legal</a>
+          </li>
+          <li class="class-nav-li">
+            <a class="class-nav-a" href="./pages/contacts.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+    <section>
+      <h1 class="custom-heading">Adrian's Journey - Blog</h1>
+      <img class="welcome-image" src="./assets/images/blog01.webp" alt="Coffe desk" />
+      <br />
+    </section>
     <main>
       <h2>Featured Blogs</h2>
       <hr />
 
       <ul>
         <li>
-          <a href="./pages/blogs/my_romania_and_myself.md">
+          <a class="contact-info" href="./pages/blogs/my_romania_and_myself.html">
             <strong>My Romania and Myself</strong>
           </a>
           <p>
@@ -43,10 +50,9 @@
           <br />
         </li>
         <code> Author: Adrian V. </code>
-        <br />
         <hr />
         <li>
-          <a href="./pages/blogs/my_other_blog.md">
+          <a class="contact-info" href="./pages/blogs/my_other_blog.html">
             <strong>My other blog</strong>
           </a>
           <p>
@@ -56,7 +62,6 @@
           </p>
         </li>
         <code> Author: Adrian V. </code>
-        <br />
         <hr />
       </ul>
 
@@ -68,14 +73,9 @@
         historical places. ...
       </blockquote>
 
-      <blockquote>
-        <a href="./pages/about_Adrian.html"> For more info click here </a>
-      </blockquote>
+      <div>
+        <a class="contact-info" href="./pages/about_Adrian.html"> For more info click here </a>
+      </div>
     </main>
-    <footer>
-      <pre><code><span class="hljs-attribute">Adrian's Journey - Blog - All rights reserved © 2023</span>
-    </code></pre>
-    </footer>
   </body>
 </html>
-
