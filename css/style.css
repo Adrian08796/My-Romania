@@ -8,10 +8,9 @@
 }
 
 /* Reset html and body */
-html,
-body {
-  padding: 0;
-  margin: 0;
+html,body {
+  padding: 0px;
+  margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
@@ -43,6 +42,9 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #111;
+  position: fixed;/*keeps nav bar in a fixed position*/
+  top: 0;/*moves nav bar to the absolute top of the screen*/
+  width: 80%;/*keep it below 100% or it will hide green current nav tab button that floats right*/
 }
 nav li {
   float: left; /*makes navigation list stay to the left side of the page*/
@@ -56,12 +58,12 @@ nav li a {
   text-decoration: none;
   font-family: fertigo pro;
 }
-/* This line turns the list item grey as i hover over it*/
+/* This line turns the list item grey as i hover over it */
 nav li a:hover:not(.active) {
   background-color: grey;
 }
 
-/* This line turns the list item grey as i hover over it*/
+/* This line turns the button text to green when i press it*/
 nav li a:hover:active {
   color:#04aa6d;
 }
@@ -73,7 +75,7 @@ nav li a:hover:active {
 /* navigation commands ends */
 
 .contact-info {
-  /*changes contacts list font on contacts page*/
+  /*changes contacts list, anchor links font,  on contacts page*/
   color: #04aa6d;
   font-weight: bold;
   text-align: left;
@@ -83,9 +85,9 @@ article section h3, article section p { /* very IMPORTANT, target article and el
   text-align:center;
 }
 article ul{
-  display: block;
-  margin-left: 300px;
-  
+  /* display: block; */
+  margin-left: 200px;
+  margin-right: 200px;
   
 }
 
