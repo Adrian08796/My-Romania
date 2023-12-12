@@ -78,10 +78,17 @@ nav li a:hover:active {
   font-weight: bold;
   text-align: left;
 }
-article section h3,p {
+
+article section h3, article section p { /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
   text-align:center;
-  /* list-style-position: inside; */
 }
+article ul{
+  display: block;
+  margin-left: 300px;
+  
+  
+}
+
 
 article img {
   display: block;
@@ -89,5 +96,5 @@ article img {
   margin-right: auto;
   width: 60%;
   border: 5px solid black;
-  border-radius: 5%;
+  border-radius: 7%;
 }
