@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Fertigo_PRO';
+  src: url('../assets/fonts/Fertigo_PRO-webfont.woff2') format('woff2'),
+       url('../assets/fonts/Fertigo_PRO-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 /* Reset html and body */
 html,
 body {
@@ -7,13 +16,13 @@ body {
   margin-right: 50px;
   margin-bottom: 50px;
   background-color: white;
-  font-family: fertigo pro;
+  font-family: 'Fertigo_PRO'
 }
+
  /*welcome page section starts*/
 .welcome-heading {
   text-align: center;
   color: #17ae77;
-  font-family: fertigo pro;
   font-size: 50px;
 }
 
@@ -52,6 +61,11 @@ nav li a:hover:not(.active) {
   background-color: grey;
 }
 
+/* This line turns the list item grey as i hover over it*/
+nav li a:hover:active {
+  color:#04aa6d;
+}
+
 .active {
   /* This line turns my current browsing page status to green */
   background-color: #04aa6d;
@@ -63,4 +77,17 @@ nav li a:hover:not(.active) {
   color: #04aa6d;
   font-weight: bold;
   text-align: left;
+}
+article section h3,p {
+  text-align:center;
+  /* list-style-position: inside; */
+}
+
+article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border: 5px solid black;
+  border-radius: 5%;
 }
