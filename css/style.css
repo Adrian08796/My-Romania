@@ -76,7 +76,7 @@ nav li a:hover:active {
 .contact-info {
   /*changes contacts list, anchor links font,  on contacts page*/
   color: #04aa6d;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: left;
 }
 
