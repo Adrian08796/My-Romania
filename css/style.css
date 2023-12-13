@@ -15,7 +15,9 @@ html,body {
   margin-right: 50px;
   margin-bottom: 50px;
   background-color: white;
-  font-family: 'Fertigo_PRO'
+  font-family: 'Fertigo_PRO';
+  font-size: 16px;
+
 }
 
  /*welcome page section starts*/
