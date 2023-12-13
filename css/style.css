@@ -47,7 +47,7 @@ nav ul {
   position: fixed;/*keeps nav bar in a fixed position*/
   top: 0;/*moves nav bar to the absolute top of the screen*/
   width: 80%;/*keep it below 100% or it will hide green current nav tab button that floats right*/
-  height:5%;
+  /* height:5%; */
 }
 nav li {
   float: left; /*makes navigation list stay to the left side of the page*/
