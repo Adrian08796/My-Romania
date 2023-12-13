@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Fertigo_PRO';
+  src: url('../assets/fonts/Fertigo_PRO-webfont.woff2') format('woff2'),
+       url('../assets/fonts/Fertigo_PRO-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* Reset html and body */
+html,body {
+  padding: 0px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  font-family: 'Fertigo_PRO'
+}
+
+ /*welcome page section starts*/
+.welcome-heading {
+  text-align: center;
+  color: #17ae77;
+  font-size: 50px;
+}
+
+.welcome-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border: 5px solid black;
+  border-radius: 5%;
+} 
+/*Welcome page section ends*/
+
+/* navigation commands starts */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  position: fixed;/*keeps nav bar in a fixed position*/
+  top: 0;/*moves nav bar to the absolute top of the screen*/
+  width: 80%;/*keep it below 100% or it will hide green current nav tab button that floats right*/
+}
+nav li {
+  float: left; /*makes navigation list stay to the left side of the page*/
+  border-right: 2px solid white; /*adds a white line inbetween buttons*/
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: fertigo pro;
+}
+/* This line turns the list item grey as i hover over it */
+nav li a:hover:not(.active) {
+  background-color: grey;
+}
+
+/* This line turns the button text to green when i press it*/
+nav li a:hover:active {
+  color:#04aa6d;
+}
+
+.active {
+  /* This line turns my current browsing page status to green */
+  background-color: #04aa6d;
+}
+/* navigation commands ends */
+
+.contact-info {
+  /*changes contacts list, anchor links font,  on contacts page*/
+  color: #04aa6d;
+  font-weight: bold;
+  text-align: left;
+}
+
+article section h3, article section p { /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
+  text-align:center;
+}
+article ul {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  display:table;
+  
+}
+
+
+article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border: 5px solid black;
+  border-radius: 7%;
+}

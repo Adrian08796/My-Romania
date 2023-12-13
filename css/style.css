@@ -56,7 +56,6 @@ nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: fertigo pro;
 }
 /* This line turns the list item grey as i hover over it */
 nav li a:hover:not(.active) {
@@ -84,10 +83,11 @@ nav li a:hover:active {
 article section h3, article section p { /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
   text-align:center;
 }
-article ul{
-  /* display: block; */
-  margin-left: 200px;
-  margin-right: 200px;
+article ul {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  display:table;
   
 }
 
