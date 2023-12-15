@@ -1,0 +1,53 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
+.home::before{
+    font-family: 'FontAwesome';
+    content: '\f015';
+    display: inline-block;
+    font-size: 10pt;
+    color: white;
+    margin-right: 3px;
+}
+.blogs::before{
+    font-family: 'FontAwesome';
+    content: '\f781';
+    display: inline-block;
+    font-size: 10pt;
+    color: white;
+    margin-right: 3px;
+}
+.about::before{
+    font-family: 'FontAwesome';
+    content: '\f05a';
+    display: inline-block;
+    font-size: 10pt;
+    color: white;
+    margin-right: 3px;
+}
+.legal::before{
+    font-family: 'FontAwesome';
+    content: '\f56c';
+    display: inline-block;
+    font-size: 10pt;
+    color: white;
+    margin-right: 3px;
+}
+.contact::before{
+    font-family: 'FontAwesome';
+    content: '\f2bb';
+    display: inline-block;
+    font-size: 10pt;
+    color: white;
+    margin-right: 3px;
+}
+
+
+/* .home::before{
+    content:url(../assets/icons/home.png);
+    content: '';
+    background: url(../assets/icons/home.png) no-repeat center center;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+} */
