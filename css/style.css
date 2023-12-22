@@ -10,20 +10,20 @@
 html,
 body {
   padding: 0px;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
   background-color: white;
   font-family: "Fertigo_PRO";
-  font-size: 16px;
+  font-size: 62.5%;
 }
 
 /*welcome page section starts*/
 .welcome-heading {
   text-align: center;
   color: #17ae77;
-  font-size: 50px;
+  font-size: 5rem;
 }
 
 .welcome-image {
@@ -31,7 +31,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  border: 5px solid black;
+  border: .5rem solid black;
   border-radius: 5%;
 }
 /*Welcome page section ends*/
@@ -39,6 +39,7 @@ body {
 /* navigation commands starts */
 nav ul {
   list-style-type: none;
+  font-size: 1.5rem;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -50,13 +51,13 @@ nav ul {
 }
 nav li {
   float: left; /*makes navigation list stay to the left side of the page*/
-  border-right: 2px solid white; /*adds a white line inbetween buttons*/
+  border-right: .2rem solid white; /*adds a white line inbetween buttons*/
 }
 nav li a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.4rem 1.6rem;
   text-decoration: none;
 }
 /* This line turns the list item grey as i hover over it */
@@ -73,27 +74,67 @@ nav li a:hover:active {
   /* This line turns my current browsing page status to green */
   background-color: #04aa6d;
 }
+
+/* @media screen and (max-width: 600px) {
+  nav li.right, 
+  nav li {float: none;}
+} */
 /* navigation commands ends */
 
 .contact-info {
   /*changes contacts list, anchor links font,  on contacts page*/
   color: #04aa6d;
   text-align: left;
+  font-size: 1.5rem;
 }
 .info-p {
-  max-width: 860px;
+  max-width: 86rem;
   margin: auto;
 }
 
-article section h3,
+h1{
+  /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
+  font-size: 3.4rem;
+}
+
+h2{
+  /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
+  font-size: 3.2rem;
+}
+
+h3{
+  /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
+  font-size: 3.2rem;
+}
+
+p{
+  /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
+  font-size: 1.5rem;
+}
+
+
+
 article section p {
   /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
-  text-align: center;
+
+  font-size: 1.5rem;
 }
+article section h3{
+  /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
+  text-align: center;
+  font-size: 2rem;
+}
+
+article  p{
+  /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
+  font-size: 1.5rem;
+}
+
 article ul {
   text-align: left;
   margin: auto;
   display: table;
+  font-size: 1.5rem;
 }
 
 article img {
@@ -101,6 +142,79 @@ article img {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  border: 5px solid black;
+  border: .5rem solid black;
   border-radius: 7%;
+}
+
+footer{
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 57.6rem) {
+.welcome-heading {
+    font-size: 3rem;
+  }
+
+.welcome-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: .3rem solid black;
+    border-radius: 5%;
+  }
+
+
+header nav{
+  display: none;
+}
+
+article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto%;
+  border: .2rem solid black;
+  border-radius: 7%;
+}
+
+/* navigation commands starts */
+nav ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  position: fixed; /*keeps nav bar in a fixed position*/
+  top: 0; /*moves nav bar to the absolute top of the screen*/
+  width: 85%; /*keep it below 100% or it will hide green current nav tab button that floats right*/
+  /* height: 5%; */
+}
+nav li {
+  float: left; /*makes navigation list stay to the left side of the page*/
+  border-right: .2rem solid white; /*adds a white line inbetween buttons*/
+}
+nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1.4rem 1.6rem;
+  text-decoration: none;
+}
+/* This line turns the list item grey as i hover over it */
+nav li a:hover:not(.active) {
+  background-color: grey;
+}
+
+/* This line turns the button text to green when i press it*/
+nav li a:hover:active {
+  color: #04aa6d;
+}
+
+.active {
+  /* This line turns my current browsing page status to green */
+  background-color: #04aa6d;
+}
+
 }
