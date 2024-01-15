@@ -97,14 +97,9 @@ h1{
   font-size: 3.4rem;
 }
 
-h2{
+h2,h3,h4{
   /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
-  font-size: 3.2rem;
-}
-
-h3{
-  /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
-  font-size: 3.2rem;
+  font-size: 2.5rem;
 }
 
 p{
@@ -112,7 +107,14 @@ p{
   font-size: 1.5rem;
 }
 
+code{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 
+blockquote{
+  font-size: 1rem;
+}
 
 article section p {
   /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
@@ -147,7 +149,7 @@ article img {
 }
 
 footer{
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 57.6rem) {
