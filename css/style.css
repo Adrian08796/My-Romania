@@ -11,10 +11,7 @@ html,
 body {
   position: relative;
   padding: 0px;
-  margin-top: 5rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  margin-bottom: 5rem;
+  margin: 5rem 10rem;
   background-color: white;
   font-family: "Fertigo_PRO";
   font-size: 62.5%;
@@ -30,7 +27,7 @@ body {
 .welcome-image {
   display: block;
   margin: auto;
-  width: 60%;
+  width: 600px;
   border: .5rem solid black;
   border-radius: 25px;
 }
@@ -203,7 +200,7 @@ nav li a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: .5rem .5rem;
+  padding: 1rem 1.2rem;
   text-decoration: none;
 }
 /* This line turns the list item grey as i hover over it */
@@ -258,18 +255,14 @@ code{
 }
 
 article section p {
-  /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
-
   font-size: 1rem;
 }
 article section h3{
-  /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
   text-align: center;
   font-size: 1.5rem;
 }
 
 article  p{
-  /* very IMPORTANT, target article and element, for each individual element ex "article section h3, article section p"*/
   font-size: 1rem;
 }
 
@@ -277,6 +270,10 @@ article ul {
   text-align: left;
   margin: auto;
   display: table;
+  font-size: 1rem;
+}
+
+article ol{
   font-size: 1rem;
 }
 
@@ -290,7 +287,7 @@ article img {
 }
 
 footer{
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 html,body{
