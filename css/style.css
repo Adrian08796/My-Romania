@@ -167,25 +167,10 @@ footer{
 .welcome-image {
     display: block;
     margin: auto;
-    width: 100%;
+    width: 90%;
     border: .3rem solid black;
     border-radius: 5%;
   }
-
-
-/* header nav{
-  display: none;
-} */
-
-article img {
-  display: block;
-  margin: auto;
-  width: auto;
-  border: .2rem solid black;
-  border-radius: 7%;
-}
-
-/* navigation commands starts */
 nav ul {
   list-style-type: none;
   font-size: 1rem;
@@ -242,6 +227,7 @@ li::marker{
   text-align: left;
   font-size: 1.5rem;
   text-decoration: none;
+  display: inline;
 }
 .info-p {
   max-width: 86rem;
@@ -295,7 +281,7 @@ article ol{
 article img {
   display: block;
   margin: auto;
-  width: 100%;
+  width: 90%;
   border: .5rem solid black;
   border-radius: 25px;
   margin-bottom: 20px;
