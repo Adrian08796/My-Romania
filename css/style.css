@@ -87,6 +87,15 @@ li::marker{
   text-align: left;
   font-size: 1.5rem;
 }
+
+.header-anchor {
+  /*changes contacts list, anchor links font,  on contacts page*/
+  color: #04aa6d;
+  text-align: left;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
 .info-p {
   max-width: 86rem;
   margin: auto;
@@ -157,9 +166,8 @@ footer{
 
 .welcome-image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    margin: auto;
+    width: 100%;
     border: .3rem solid black;
     border-radius: 5%;
   }
@@ -171,8 +179,7 @@ footer{
 
 article img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: auto;
   border: .2rem solid black;
   border-radius: 7%;
@@ -226,7 +233,15 @@ li::marker{
   /*changes contacts list, anchor links font,  on contacts page*/
   color: #04aa6d;
   text-align: left;
+  font-size: 1.2rem;
+}
+
+.header-anchor {
+  /*changes contacts list, anchor links font,  on contacts page*/
+  color: #04aa6d;
+  text-align: left;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 .info-p {
   max-width: 86rem;
